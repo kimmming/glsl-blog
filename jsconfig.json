@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/components/*": ["components/*"],
+      "@/shaders/*": ["components/shaders/*"],
+      "@/canvas/*": ["components/canvas/*"],
+      "@/ui/*": ["components/ui/*"],
+      "@/styles/*": ["styles/*"],
+      "@/utils/*": ["utils/*"]
+
     }
   }
 }
